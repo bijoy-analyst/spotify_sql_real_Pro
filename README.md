@@ -48,14 +48,20 @@ The dataset includes columns such as:
 SELECT track, stream
 FROM spotify
 WHERE stream > 1000000000;
-## 🟢 2️⃣ List all albums along with their respective artists
+
+## 🧾 SQL Queries
+
+### 🟢 2️⃣ List all albums along with their respective artists
 ```sql
 SELECT
   DISTINCT album,
   artist
 FROM spotify
 ORDER BY 1;
-## 🟡 10️⃣ Retrieve the track names that have been streamed on Spotify more than YouTube
+
+## 🧾 SQL Queries
+
+### 🟡 10️⃣ Retrieve the track names that have been streamed on Spotify more than YouTube
 ```sql
 SELECT *
 FROM (
